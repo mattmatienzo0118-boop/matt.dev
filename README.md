@@ -322,9 +322,8 @@ The project can be expanded through additional hardware and software features, s
 
 | Name | Role |
 |---|---|
-| Project Developer | Hardware and Firmware Development |
-| Contributor 2 | To be assigned |
-| Contributor 3 | To be assigned |
+| Matt Matienzo | Hardware and Firmware Development |
+
 
 ## License
 
