@@ -102,7 +102,7 @@ The following table shows the current wiring configuration.
 |---|---|---|
 | VCC | 5V | Power |
 | GND | GND | Ground |
-| A0 | D1 | Analog Output |
+| A0 | D4 | Analog Output |
 
 ### Round LCD (SPI)
 
@@ -110,11 +110,11 @@ The following table shows the current wiring configuration.
 |---|---|---|
 | VCC | 3.3V | Display Power |
 | GND | GND | Ground |
-| SCL | D7 | SPI Clock |
-| SDA | D6 | SPI MOSI |
+| SCL | D14 | SPI Clock |
+| SDA | D10 | SPI MOSI |
 | DC | D9 | Data/Command |
-| CS | D10 | Chip Select |
-| RST | D8 | Reset |
+| CS | D8 | Chip Select |
+| RST | D7| Reset |
 
 ### BME280 (I2C)
 
@@ -123,7 +123,7 @@ The following table shows the current wiring configuration.
 | VCC | 3.3V | Power |
 | GND | GND | Ground |
 | SCL | D2 | I2C Clock |
-| SDA | D5 | I2C Data |
+| SDA | D1 | I2C Data |
 
 **Hardware Note:** Verify the TRIOE board's D-pin-to-GPIO mapping before configuring firmware. Also verify that the MQ-135 module's analog output does not exceed the ESP32-S3 ADC input voltage limit. Use appropriate voltage conditioning when necessary.
 
